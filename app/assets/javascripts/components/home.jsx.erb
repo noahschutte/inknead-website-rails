@@ -10,9 +10,9 @@ var Home = React.createClass({
 						<img src='<%= image_path("logo@2x.png") %>' className='logo'/>
 					</div>
 					<div className='social-container'>
-						<img src='assets/icon_facebook@2x.png' className='social-icons'/>
-						<img src='assets/icon_twitter@2x.png' className='social-icons'/>
-						<img src='assets/share@2x.png' className='social-icons share-icon'/>
+						<img src='<%= image_path("icon_facebook@2x.png") %>' className='social-icons'/>
+						<img src='<%= image_path("icon_twitter@2x.png") %>' className='social-icons'/>
+						<img src='<%= image_path("share@2x.png") %>' className='social-icons share-icon'/>
 					</div>
 
 					<div className="main-text">
@@ -38,7 +38,7 @@ var Home = React.createClass({
 					
 
 					<div className="iphone-container">
-						<img src='assets/iphone_big.png' className='iphone img-responsive'/>
+						<img src='<%= image_path("iphone_big.png") %>' className='iphone img-responsive'/>
 					</div>
 				</div>
 {this.props.name}
